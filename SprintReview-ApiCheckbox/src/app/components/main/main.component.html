@@ -1,0 +1,74 @@
+<div class="container-fluid">
+  <div class="row forms-column">
+    <div class="col-4">
+      <h1 class="title text-center">Request</h1>
+      <form autocomplete="off">
+        <div class="form-group">
+          <label for="policyId">Póliza</label>
+          <input
+            type="text"
+            class="form-control"
+            id="policyId"
+            [(ngModel)]="policyId"
+            name="policyId"
+            placeholder="1507792"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="productId">Producto</label>
+          <select class="form-control" id="productId">
+            <option *ngIf="this.policyId == 0; else elseBlock" value="233"
+              >Accidentes Personales</option
+            >
+            <ng-template #elseBlock
+              ><option value="309">Compra protegida</option></ng-template
+            >
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="birthday">Fecha de Nacimiento</label>
+          <input
+            type="date"
+            class="form-control"
+            id="birthday"
+            [(ngModel)]="birthday"
+            name="birthday"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="identityNumber">DNI</label>
+          <input
+            type="text"
+            class="form-control"
+            id="identityNumber"
+            [(ngModel)]="identityNumber"
+            name="identityNumber"
+            placeholder="39271403"
+          />
+        </div>
+
+        <button (click)="createPolicy()" class="btn btn-lg"
+          >Ingresar solicitud</button
+        >
+      </form>
+    </div>
+    <div class="col-6 text-center">
+      <h1 class="title">Response</h1>
+      <h5 class="typeOfPolicy">
+        Tipo de producto:
+        <span *ngIf="this.policyId == 0; else elseBlock2">Individual</span
+        ><ng-template #elseBlock2>Colectivo</ng-template>
+      </h5>
+
+      <div class="alert alert-danger" role="alert" id="error">
+      </div>
+
+      <div class="alert alert-success" role="alert" id="success">
+      </div>
+
+    </div>
+  </div>
+</div>

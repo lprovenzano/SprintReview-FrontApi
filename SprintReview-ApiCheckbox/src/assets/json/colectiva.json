@@ -1,0 +1,89 @@
+{
+"policyId": 1507792,
+  "riskData": {
+    "agreementCode": 1,
+    "coverageAmountList": [{
+        "coverageCode": 1,
+        "insuredAmount": 600000
+    }],
+    "moduleCode": 1,
+    "currency": 1,
+    "lineOfBusiness": 12,
+    "productCode": 233,
+    "paymentFrequency": 5
+  },
+  "commercialOfferData": {
+    "effectiveDate": "2020-07-23T21:00:00-03:00",
+    "commercialPartner": 1,
+    "salePoint": 1
+  },
+  "riskAddress": {
+    "cityCode": 3410,
+    "department": "4",
+    "email": "ExeRisk@hotmail.com",
+    "floor": 4,
+    "municipalityCode": 3125,
+    "number": 444,
+    "province": 3,
+    "street": "Catamarquita",
+    "typeOfAddress": 2,
+    "zipCode": "4724",
+    "sRecType": "1"
+  },
+  "role": {
+    "address": {
+        "cityCode": 3410,
+        "department": "1",
+        "email": "ExeRole@hotmail.com",
+        "floor": 2,
+        "number": 5123,
+        "province": 3,
+        "street": "Roledireccion",
+        "typeOfAddress": 2,
+        "zipCode": "4724",
+        "sRecType": "2"
+    },
+    "birthDate": "1990-04-23T14:13:50.782Z",
+    "civilStatus": 1,
+    "documents": [{
+      "documentNumber": 25100999,
+      "typeOfDocument": 5
+    }],
+    "firstName": "Exequiel",
+    "gender": 2,
+    "lastName": "Cata",
+    "paymentInfo": [{
+      "creditCard": "5895624664044000",
+      "typeOfAccount": 0
+    }],
+    "phones": [
+      {
+        "areaCode": 11,
+        "phoneNumber": "55667788",
+        "nPhoneType": 5
+      },
+      {
+        "areaCode": 11,
+        "phoneNumber": "11223344",
+        "nPhoneType": 2
+      }
+    ],
+    "typeOfRole": 1
+  },
+  "sellerSalePointData": {
+    "salePoint": {
+      "description": "Oficina X",
+      "id": "105"
+    },
+    "seller": {
+      "firstName": "Juan",
+      "id": "1234",
+      "lastName": "Pérez",
+      "referral": {
+        "firstName": "Julio",
+        "id": "5678",
+        "lastName": "Hernández"
+      }
+    }
+  }
+  }

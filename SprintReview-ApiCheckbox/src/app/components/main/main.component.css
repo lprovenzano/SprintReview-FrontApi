@@ -1,0 +1,18 @@
+.forms-column{
+    margin-top:2%
+}
+
+.title{
+    font-weight: 700;
+}
+
+.btn{
+    background-color: #f2682a!important;
+    border: #a2a2a2;
+    color: #FFF;
+    font-weight: 500;
+}
+
+#success, #error{
+    display: none;
+}

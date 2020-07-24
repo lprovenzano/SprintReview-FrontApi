@@ -1,0 +1,90 @@
+{
+  "riskData": {
+    "agreementCode": 9,
+    "coverageAmountList": [{
+        "coverageCode": 340,
+        "insuredAmount": 15500
+    },{
+        "coverageCode": 341,
+        "insuredAmount": 15500
+    }],
+    "moduleCode": 1,
+    "currency": 1,
+    "lineOfBusiness": 7,
+    "productCode": 3092,
+    "paymentFrequency": 5
+  },
+  "commercialOfferData": {
+    "effectiveDate": "2019-06-07T10:36:51.112Z",
+    "commercialPartner": 3,
+    "salePoint": 22
+  },
+  "riskAddress": {
+    "cityCode": 708,
+    "department": "2",
+    "email": "peperisk@yahoo.com",
+    "floor": 2,
+    "number": 123,
+    "province": 2,
+    "street": "MAIPU",
+    "typeOfAddress": 2,
+    "zipCode": "1925",
+    "sRecType": "1"
+  },
+  "role": {
+    "address": {
+        "cityCode": 708,
+        "department": "2",
+        "email": "peperole@yahoo.com",
+        "floor": 2,
+        "number": 321,
+        "province": 2,
+        "street": "MAIPU",
+        "typeOfAddress": 2,
+        "zipCode": "1925",
+        "sRecType": "2"
+    },
+    "birthDate": "1990-04-23T14:13:50.782Z",
+    "civilStatus": 1,
+    "documents": [{
+      "documentNumber": 30999778,
+      "typeOfDocument": 5
+    }],
+    "firstName": "Pedro",
+    "gender": 2,
+    "lastName": "Apex",
+    "paymentInfo": [{
+      "creditCard": "5895624664044000",
+      "typeOfAccount": 0
+    }],
+    "phones": [
+      {
+        "areaCode": 11,
+        "phoneNumber": "55667788",
+        "nPhoneType": 5
+      },
+      {
+        "areaCode": 11,
+        "phoneNumber": "11223344",
+        "nPhoneType": 2
+      }
+    ],
+    "typeOfRole": 1
+  },
+  "sellerSalePointData": {
+    "salePoint": {
+      "description": "Oficina X",
+      "id": "105"
+    },
+    "seller": {
+      "firstName": "Juan",
+      "id": "1234",
+      "lastName": "Pérez",
+      "referral": {
+        "firstName": "Julio",
+        "id": "5678",
+        "lastName": "Hernández"
+      }
+    }
+  }
+}
