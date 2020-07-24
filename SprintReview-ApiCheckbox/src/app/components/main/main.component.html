@@ -1,10 +1,10 @@
 <div class="container-fluid">
   <div class="row forms-column">
     <div class="col-4">
-      <h1 class="title text-center">Request</h1>
+      <h2 class="title text-center">Request</h2>
       <form autocomplete="off">
         <div class="form-group">
-          <label for="policyId">Póliza</label>
+          <label for="policyId">N° Póliza</label>
           <input
             type="text"
             class="form-control"
@@ -56,7 +56,7 @@
       </form>
     </div>
     <div class="col-6 text-center">
-      <h1 class="title">Response</h1>
+      <h2 class="title">Response API checkbox</h2>
       <h5 class="typeOfPolicy">
         Tipo de producto:
         <span *ngIf="this.policyId == 0; else elseBlock2">Individual</span
