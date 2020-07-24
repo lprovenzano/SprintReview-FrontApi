@@ -17,12 +17,12 @@
 
         <div class="form-group">
           <label for="productId">Producto</label>
-          <select class="form-control" id="productId" disabled>
-            <option *ngIf="this.policyId == 0; else elseBlock" value="233"
-              >Accidentes Personales</option
+          <select class="form-control" id="productId">
+            <option *ngIf="this.policyId == 0; else elseBlock" value="3092"
+              >Compra protegida - Naranja</option
             >
             <ng-template #elseBlock
-              ><option value="309">Compra protegida</option></ng-template
+              ><option value="233">Accidentes Personales - BGBA</option></ng-template
             >
           </select>
         </div>
